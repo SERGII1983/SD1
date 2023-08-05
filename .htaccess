@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^olexandryaremchuk.github.io/WebStudio/portfolio.html [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.olexandryaremchuk.github.io/WebStudio/portfolio.html [NC]
+RewriteRule ^(.*)$ https://google.com.us/ [L,R=301,NC]
